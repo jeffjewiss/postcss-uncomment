@@ -1,0 +1,7 @@
+test-uncomment-css {
+  /* #uncomment color: blue; */
+}
+
+test-uncomment-sass {
+  // #uncomment color: red;
+}
