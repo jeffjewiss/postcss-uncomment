@@ -1,6 +1,6 @@
 {
   "name": "postcss-uncomment",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Uncomment one-line comments into CSS statements or rules.",
   "author": {
     "name": "Jeff",
