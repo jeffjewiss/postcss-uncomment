@@ -13,12 +13,16 @@ export default postcss.plugin('postcss-uncomment', (/*opts*/) => {
     })
 
     root.walkComments(comment => {
-      const cssString = comment.text.toString().replace('/*', '').replace('*/', '').replace('#uncomment', '').trim()
-      const prop = cssString.split(':')[0].trim()
-      const value = cssString.split(':')[1].trim()
+      const commentText = comment.text.toString()
 
-      if (comment.text.includes('#uncomment')) {
-        comment.replaceWith({ prop, value })
+      if (commentText.includes('#uncomment')) {
+        comment.replaceWith(
+          comment.text.toString()
+          .replace('/*', '')
+          .replace('*/', '')
+          .replace('#uncomment', '')
+          .trim()
+        )
       }
     })
   }
