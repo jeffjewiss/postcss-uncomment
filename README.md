@@ -39,8 +39,8 @@ and by running: `postcss-sass` -> `postcss-uncomment` -> `postcss-import` -> `..
 these files could be properly processed with an expected output.
 
 
-[npm-url]: https://www.npmjs.com/package/jeffjewiss/postcss-uncomment
-[npm-img]: https://img.shields.io/npm/v/jeffjewiss/postcss-uncomment.svg
+[npm-url]: https://www.npmjs.com/package/postcss-uncomment
+[npm-img]: https://img.shields.io/npm/v/postcss-uncomment.svg
 [cli-url]: https://travis-ci.org/jeffjewiss/postcss-uncomment
 [cli-img]: https://img.shields.io/travis/jeffjewiss/postcss-uncomment.svg
 [win-url]: https://ci.appveyor.com/project/jeffjewiss/postcss-uncomment
