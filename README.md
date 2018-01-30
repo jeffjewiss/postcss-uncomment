@@ -1,4 +1,4 @@
-# PostCSS Uncomment [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS Logo" width="90" height="90" align="right">][postcss]
+# PostCSS Uncomment [<img src="https://postcss.github.io/postcss/logo.svg" alt="PostCSS Logo" width="90" height="90" align="right">][PostCSS]
 
 [![NPM Version][npm-img]][npm-url]
 [![Linux Build Status][cli-img]][cli-url]
@@ -46,3 +46,4 @@ these files could be properly processed with an expected output.
 [win-url]: https://ci.appveyor.com/project/jeffjewiss/postcss-uncomment
 [win-img]: https://img.shields.io/appveyor/ci/jeffjewiss/postcss-uncomment.svg
 [PostCSS Uncomment]: https://github.com/jeffjewiss/postcss-uncomment
+[PostCSS]: https://github.com/postcss/postcss
