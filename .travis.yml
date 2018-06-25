@@ -1,9 +1,8 @@
-# https://docs.travis-ci.com/user/travis-lint
-
 language: node_js
 
 node_js:
-  - 4
+  - 10
 
 install:
-  - npm install --ignore-scripts
+  - npm install npm@6 --global
+  - npm ci
