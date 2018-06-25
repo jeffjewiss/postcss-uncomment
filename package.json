@@ -27,7 +27,8 @@
     "test:tape": "postcss-tape"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=6.0.0",
+    "yarn": "YARN NO LONGER USED - use npm instead."
   },
   "dependencies": {
     "postcss": "^6.0"
