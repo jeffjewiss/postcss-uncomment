@@ -2,7 +2,6 @@
 
 [![NPM Version][npm-img]][npm-url]
 [![Linux Build Status][cli-img]][cli-url]
-[![Windows Build Status][win-img]][win-url]
 
 [PostCSS Uncomment] lets you turn a comment into a CSS declaration.
 
@@ -43,7 +42,5 @@ these files could be properly processed with an expected output.
 [npm-img]: https://img.shields.io/npm/v/postcss-uncomment.svg
 [cli-url]: https://travis-ci.org/jeffjewiss/postcss-uncomment
 [cli-img]: https://img.shields.io/travis/jeffjewiss/postcss-uncomment.svg
-[win-url]: https://ci.appveyor.com/project/jeffjewiss/postcss-uncomment
-[win-img]: https://img.shields.io/appveyor/ci/jeffjewiss/postcss-uncomment.svg
 [PostCSS Uncomment]: https://github.com/jeffjewiss/postcss-uncomment
 [PostCSS]: https://github.com/postcss/postcss
