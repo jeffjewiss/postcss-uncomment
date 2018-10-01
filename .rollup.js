@@ -5,8 +5,9 @@ export default {
 	output: { file: 'index.bundle.js', format: 'cjs' },
 	plugins: [
 		babel({
+      babelrc: false,
 			presets: [
-				['env', { modules: false, targets: { node: 4 } }]
+        ['@babel/preset-env', { modules: false }]
 			]
 		})
 	]
