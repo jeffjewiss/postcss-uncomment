@@ -43,7 +43,7 @@
     "postcss-tape": "2.2",
     "pre-commit": "^1.2",
     "rollup": "^0.67",
-    "rollup-plugin-babel": "4.0.3"
+    "rollup-plugin-babel": "4.1.0"
   },
   "eslintConfig": {
     "extends": "dev",
